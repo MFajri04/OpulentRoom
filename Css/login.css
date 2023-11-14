@@ -1,0 +1,117 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+/* Change navbar color when scrolling  */
+.navbar.scrolling-active{
+    background-color: #00985B;
+    padding: 15px 0 15px 0;
+}
+  
+.navbar .btn-primary{
+    background-color: white;
+    border-color: #00985B;
+    border-radius: 9px;
+    color: black;
+}
+  
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/labuan-bajo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+  
+.hero h1{
+    --animate-delay: 0.7s;
+}
+  
+.hero p{
+    --animate-delay: 1.2s;
+}
+  
+.hero button{
+    --animate-delay: 1.7s;
+}
+
+.hero input{
+    --animate-delay: 1.7s;
+}
+  
+.projects{
+    padding: 100px 0 100px 0;
+}
+  
+.projects img{
+    height: 250px;
+}
+  
+/* .services img{
+    width: 250px;
+    height: 400px;
+}
+  
+.services h5{
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+  
+.services i{
+    color: green;
+    font-size: 30px;
+}
+  
+.faq{
+    padding-top: 100px;
+}
+  
+.faq .accordion{
+    --bs-accordion-bg: #e9edc9;
+}
+  
+.faq .accordion .accordion-button:focus{
+    box-shadow: none;
+} */
+  
+.footer{
+    min-height: 60vh;
+    background-color: #00985B;
+    margin-top: 150px;
+}
+  
+.footer .copyright{
+    padding-top: 100px;
+}
+
+.footer a{
+    color: rgba(255,255,255,0.5);
+}
+
+.footer a:hover{
+    color: white;
+}
+  
+@media screen and (max-width: 1200px){
+    .services img{
+      width: 220px;
+    }
+}
+  
+@media screen and (max-width: 475px){
+    .services h5{
+      font-size: 16px;
+    }
+}
+  
