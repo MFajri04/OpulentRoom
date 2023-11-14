@@ -15,6 +15,13 @@
     background-color: #00985B;
     padding: 15px 0 15px 0;
 }
+
+@media (max-width: 768px) {
+    .navbar-collapse
+      {
+        background-color: #00985B;
+      }
+  }
   
 .navbar .btn-primary{
     background-color: white;
@@ -44,9 +51,22 @@
     --animate-delay: 1.7s;
 }
 
-.hero input{
+.hero input, select{
     --animate-delay: 1.7s;
 }
+
+.hero .date button{
+    width: 120px;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    column-span: all;
+}
+
   
 .projects{
     padding: 100px 0 100px 0;
@@ -54,6 +74,15 @@
   
 .projects img{
     height: 250px;
+}
+
+.testimoni{
+    padding: 100px 0 100px 0;
+}
+  
+.testimoni img{
+    height: 250px;
+    border-radius: 50%;
 }
   
 /* .services img{
