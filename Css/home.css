@@ -127,13 +127,13 @@ input[type='date']:in-range::-webkit-datetime-edit-year-field, input[type='date'
   
 /* footer */
 .footer{
-    min-height: 60vh;
+    min-height: 50vh;
     background-color: #00985B;
     margin-top: 150px;
 }
   
 .footer .copyright{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .footer a{
