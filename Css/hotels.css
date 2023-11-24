@@ -20,16 +20,15 @@
 
 .navbar .btn-primary{
   background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.55);
-  border-radius: 9px;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.55);
+  border: none;
 }
 
 .navbar .btn-primary:hover{
   background-color: transparent;
-  border-color: #ffffff;
-  border-radius: 9px;
   color: #ffffff;
+  border: none;
 }
   
 /* Hero Section */
