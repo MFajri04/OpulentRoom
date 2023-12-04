@@ -9,7 +9,7 @@
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  background-color: #00985B;
+  background-color: transparent;
 }
 
 /* Change navbar color when scrolling  */
@@ -30,66 +30,96 @@
   color: #ffffff;
   border: none;
 }
+
+/* Hero Section */
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/labuan-bajo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+    
+.hero h1{
+    --animate-delay: 0.7s;
+}
+    
+.hero p{
+    --animate-delay: 1.2s;
+}
+
   
 /* Sidebar */
 .awal{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  /* margin-top: 100px; */
+  margin-top: 100px;
 }
 
 .sidebar{
-  border: apx solid #eee;
+  border: 1px solid #ffffff;
   border-radius: 9px;
-  margin-right: 110px;
   padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
-.carousel-indicators{
-  color: white;
+.sidebody{
+  padding-bottom: 15px;
 }
 
-.carousel-inner .carousel-item{
-  height: 450px;
+.table tbody > tr:last-child > td{
+  border-bottom: transparent;
 }
 
-.carousel-item{
-  Position:relative;
-  background: no-repeat scroll center scroll;
-  -webkit-background-size: cover;
-  background-size: cover;
+.kanantable{
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.carousel-item img{
-  height:70vh;
-  object-fit: contain;
-  position: absolute;
+.kiritable{
+  font-weight: bold;
 }
 
-.htl{
-  height: 400px;
-  padding: 40px;
+.data{
+  padding-right: 10px;
+  width: 35%;
 }
 
-.feature{ 
-  margin-left: 40px;
+
+.sideform{
+  border: 1px solid #ffffff;
+  border-radius: 9px;
+  padding: 30px 15px 15px 15px;
+  width: 60%;
+  margin-left: 30px;
 }
 
-.btnsearch{
+.form-control:focus {
+  border-color: #00985B;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 152, 91, 0.6);
+}
+
+.btnpay{
   background-color: #ffffff;
-  border-color: rgba(0, 0, 0, 0.25);
+  border-color: #00985B;
   border-radius: 9;
   width: 100%;
 }
 
-.btnsearch:hover{
+.btnpay:hover{
   background-color: #00985B;
   color: #ffffff;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 
 /* footer */
 .footer{
